@@ -1,0 +1,14 @@
+# Core dependencies (compatible with Python 3.8.8)
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.2.2
+joblib==1.2.0
+psutil==5.9.8
+
+# Build tools
+setuptools>=58.0.4
+wheel>=0.38.4
+
+# Deep learning (TensorFlow + Keras)
+tensorflow==2.11.1  # Last officially supported version for Python 3.8
+

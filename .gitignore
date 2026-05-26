@@ -1,0 +1,44 @@
+*.csv
+__pycache__/
+evaluation_results/
+sensor_estimation/
+myenv/
+Game-3/models/*
+Game-2/models/*
+Game-1/venv/*
+Game-2/venv/*
+Game-3/venv/*
+ML_Models/Results/*
+**/venv/*
+# Training logs and outputs
+*.log
+training_output.log
+
+# Checkpoint directories
+*_Checkpoints/
+Game-*_*_*_Checkpoints/
+
+# Temporary model files
+*.h5
+*.weights.h5
+tmp/best_model_*.h5
+Processed_UCI/
+Processed_PAMAP/
+
+STMDATASET/
+Semantic_Free_Adversary/Results/
+*.pkl
+*.npz
+**report**
+
+Cache/**
+Data/**
+venv
+*.sh
+DL_Models/Results/
+
+Results/
+AGENTS.md
+**pycache**
+.codex
+.codex-run-logs/

@@ -6,6 +6,19 @@ This repository contains the research artifact for **[Sensor Privacy as a Spectr
 
 [Paper PDF](https://petsymposium.org/popets/2026/popets-2026-0124.pdf) · [DOI](https://doi.org/10.56553/popets-2026-0124)
 
+## See the privacy risk
+
+[![Conceptual animation: wearable motion events feed an activity-inference attack; repeated estimates could expose a daily routine, and multimodal alignment can strengthen inference.](docs/assets/sensor-side-channel.gif)](docs/assets/sensor-side-channel.mp4)
+
+**A coarse sensor output can become a window into everyday behavior.** This
+30-second animation illustrates an attacker estimating activities from motion
+events, the possible exposure of a daily routine, and the MMBIND representation
+attack. All signals and activity estimates are synthetic illustrations, not
+participant recordings or experimental results.
+
+[Watch or download the MP4](docs/assets/sensor-side-channel.mp4) ·
+[Text transcript and rendering instructions](docs/animation.md)
+
 ## Attack surface and experiments
 
 The attacker's goal is to infer a private target, such as a person's activity, from the interface available to them. The experiments vary sensor access, temporal continuity, sensor placement, auxiliary knowledge, and representation alignment to measure how each changes attack success.

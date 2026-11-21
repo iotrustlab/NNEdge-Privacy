@@ -31,3 +31,6 @@ Semantic_Free_Adversary/Results/
 **report**
 
 Cache/**
+
+# Animation renderer environment
+.venv-animation/
